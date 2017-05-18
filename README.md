@@ -31,9 +31,11 @@ Include the library is very easy
 
 require "UnitConverter.php";
 
-Simple Example
+## Simple Example
 Once you have included the UnitConverter.php library.
 
 $obj = new UnitConvertor();
+
 echo $obj->convert(2,"km","ft"); //returns converted value
+
 2 Km = 6561.6797900262 Ft
