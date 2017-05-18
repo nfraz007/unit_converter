@@ -30,7 +30,9 @@ Setting up Convertor could not be simpler.
 
 Include the library is very easy
 
+```
 require "UnitConverter.php";
+```
 
 ## Simple Example
 Once you have included the UnitConverter.php library.
