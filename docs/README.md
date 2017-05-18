@@ -36,7 +36,7 @@ The base unit for each category is highlighted in bold.
 
 ## Length
 
-* *m - meter*
+* **m - meter**
 * km - kilometer
 * dm - decimeter
 * cm - centimeter
@@ -59,7 +59,7 @@ The base unit for each category is highlighted in bold.
 
 ## Area
 
-* *m2 - meter square*
+* **m2 - meter square**
 * km2 - kilometer square
 * ha - hectare
 * are - are
@@ -76,7 +76,7 @@ The base unit for each category is highlighted in bold.
 
 ## Volume
 
-* *m3 - meter cube*
+* **m3 - meter cube**
 * dm3 - decimeter cube
 * cm3 - centimeter cube
 * mm3 - milimeter cube
@@ -94,7 +94,7 @@ The base unit for each category is highlighted in bold.
 
 ## Mass
 
-* *kg - kilogram*
+* **kg - kilogram**
 * t - metric ton
 * g - gram
 * mg - miligram
@@ -113,7 +113,7 @@ The base unit for each category is highlighted in bold.
 
 ## Speed
 
-* *mps - meter per second*
+* **mps - meter per second**
 * kph - kilometer per hour
 * kps - kilometer per second
 * mph - mile per hour
@@ -125,7 +125,7 @@ The base unit for each category is highlighted in bold.
 
 ## Time
 
-* *s - second*
+* **s - second**
 * y - year
 * mth - month
 * wk - week
@@ -139,7 +139,7 @@ The base unit for each category is highlighted in bold.
 
 ## Plane Angle
 
-* *deg - degree*
+* **deg - degree**
 * rad - radian
 * gad - gradian
 * mrad - milliradian
@@ -147,7 +147,7 @@ The base unit for each category is highlighted in bold.
 
 ## Pressure
 
-* *pa - pascal*
+* **pa - pascal**
 * kpa - kilopascal
 * mpa - megapascal
 * bar - bar
@@ -157,7 +157,7 @@ The base unit for each category is highlighted in bold.
 
 ## Energy
 
-* *j - joule*
+* **j - joule**
 * kj - kilojoule
 * mj - megajoule
 * cal - calorie
@@ -171,7 +171,7 @@ The base unit for each category is highlighted in bold.
 
 ## Data Storage
 
-* *b - bit*
+* **b - bit**
 * kb - kilobit
 * kbb - kibibit
 * mb - megabit
@@ -197,7 +197,7 @@ The base unit for each category is highlighted in bold.
 
 ## Frequency
 
-* *hz - hertz*
+* **hz - hertz**
 * khz - kilohertz
 * mhz - megahertz
 * ghz - gigahertz
