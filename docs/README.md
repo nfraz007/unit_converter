@@ -13,7 +13,7 @@ include("UnitConverter.php");
 require "UnitConverter.php";
 ```
 
-# Convert A Unit
+# Convert a Unit
 To convert a unit, create an instance of UnitConverter class. you can then call the convert() function on the UnitConverter object, passing three values as *number*, *from*, *to* which is
 
 number : the integer/decimal value which is going to be converted
@@ -30,15 +30,19 @@ echo $obj->convert(2, "km", "ft");
 
 # Get list/perticular Unit data
 You can get the list of unit data with just one function. The **getUnit()** function return all the unit data. if you want to see the perticular unit then pass the unit as a parameter to this function.
+
 ```
 $obj = new UnitConverter();
 echo $obj->getUnit();
 ```
+
 > Output will be a json string
+
 ```
 $obj = new UnitConverter();
 echo $obj->getUnit("km");
 ```
+
 > {"name":"kilometer", "base":"m", "factor":1000}
 
 # Adding/Insert custom unit
@@ -48,14 +52,17 @@ If you want to add custom unit then it is also very easy. This can be done using
 $obj = new UnitConverter();
 $obj->putUnit("n","neo","m",100);
 ```
+
 It will add this unit to the unit array.
 
 # Edit/Update existing unit
 If you want to modify existing factor value of a certain unit, then it is also a very easy task. Just call a function setUnit() and it will do rest of things for you. This function takes two parameter as **unit** and **factor**. 
+
 ```
 $obj = new UnitConverter();
 $obj->setUnit("km", 10000);
 ```
+
 >It will modify the factor value of **km**.
 
 # Available Units
