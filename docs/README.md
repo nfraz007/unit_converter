@@ -28,6 +28,36 @@ echo $obj->convert(2, "km", "ft");
 ```
 > 2 Km = 6561.6797900262 Ft
 
+# Get list/perticular Unit data
+You can get the list of unit data with just one function. The **getUnit()** function return all the unit data. if you want to see the perticular unit then pass the unit as a parameter to this function.
+```
+$obj = new UnitConverter();
+echo $obj->getUnit();
+```
+> Output will be a json string
+```
+$obj = new UnitConverter();
+echo $obj->getUnit("km");
+```
+> {"name":"kilometer", "base":"m", "factor":1000}
+
+# Adding/Insert custom unit
+If you want to add custom unit then it is also very easy. This can be done using the function **putUnit()**. This function take four argument as **unit**, **name**, **base**, **factor**. all data must be not null and unit need not be present in existing unit array. **factor** must be a integer/decimal value and not be equal to zero.
+
+```
+$obj = new UnitConverter();
+$obj->putUnit("n","neo","m",100);
+```
+It will add this unit to the unit array.
+
+# Edit/Update existing unit
+If you want to modify existing factor value of a certain unit, then it is also a very easy task. Just call a function setUnit() and it will do rest of things for you. This function takes two parameter as **unit** and **factor**. 
+```
+$obj = new UnitConverter();
+$obj->setUnit("km", 10000);
+```
+>It will modify the factor value of **km**.
+
 # Available Units
 
 UnitConverter comes with a large number of standard units build in. this section details all of these units by category.
