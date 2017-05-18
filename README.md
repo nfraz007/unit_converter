@@ -1,7 +1,7 @@
 # Unit Converter
 An easy to use PHP unit conversion library.
 
-Full documentation & demos can be found at: 
+Full documentation & demos can be found at: https://nfraz007.github.io/UnitConverter/
 
 Converter allows you to convert any unit to any other compatible unit type.
 
@@ -37,7 +37,7 @@ require "UnitConverter.php";
 ## Simple Example
 Once you have included the UnitConverter.php library.
 ```
-$obj = new UnitConvertor();
+$obj = new UnitConverter();
 
 echo $obj->convert(2,"km","ft"); //returns converted value
 
