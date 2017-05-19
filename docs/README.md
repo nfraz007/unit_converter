@@ -1,5 +1,7 @@
 # Unit Converter Library
 
+UnitConverter allows you to convert any unit to any other compatible unit type. It has no external dependencies, simply include the library in your project and you're away!
+
 # Setup
 
 Setting up this converter is very easy.
