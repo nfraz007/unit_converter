@@ -4,9 +4,9 @@ An easy to use PHP unit conversion library.
 Converter allows you to convert any unit to any other compatible unit type. It has no external dependencies, simply include the library in your project and you're away!
 
 # Documentation
-Full documentation : https://nfraz007.github.io/unit_converter/
+Full documentation : [https://nfraz007.github.io/unit_converter/](https://nfraz007.github.io/unit_converter/)
 
-Live Demo : http://nazishfraz.co.nf/unit_converter
+Live Demo : [http://nazishfraz.co.nf/unit_converter](http://nazishfraz.co.nf/unit_converter)
 
 Convertor can handle a wide range of unit types including:
 
