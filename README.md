@@ -6,7 +6,7 @@ Converter allows you to convert any unit to any other compatible unit type. It h
 # Documentation
 Full documentation : [https://nfraz007.github.io/unit_converter/](https://nfraz007.github.io/unit_converter/)
 
-Live Demo : [http://nazishfraz.co.nf/unit_converter](http://nazishfraz.co.nf/unit_converter)
+Live Demo : [http://project.nfraz.co.in/unit_converter](http://project.nfraz.co.in/unit_converter)
 
 Convertor can handle a wide range of unit types including:
 
